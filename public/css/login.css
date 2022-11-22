@@ -38,6 +38,10 @@
     color: #535261;
 }
 
+.login_page .left_content form p {
+    text-align: left;
+}
+
 .login_page .left_content form p a {
     font-size: 14px;
     color: red;

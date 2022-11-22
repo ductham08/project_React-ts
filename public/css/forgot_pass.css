@@ -1,4 +1,4 @@
-.re_pass_page {
+.forgot_pass_page {
     background-color: #F6F6F6;
     display: flex;
     justify-content: space-between;
@@ -13,22 +13,22 @@
 
 /* Left content */
 
-.re_pass_page .left_content {
+.forgot_pass_page .left_content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.re_pass_page .left_content form {
+.forgot_pass_page .left_content form {
     margin-top: 50px;
 }
 
-.re_pass_page .left_content form label {
+.forgot_pass_page .left_content form label {
     color: #37474F;
     padding: 5px 0px;
 }
 
-.re_pass_page .left_content form input {
+.forgot_pass_page .left_content form input {
     margin-top: 5px;
     width: 100%;
     padding: 8px 12px;
@@ -38,25 +38,21 @@
     color: #535261;
 }
 
-.re_pass_page .left_content form h5,
-p {
+.forgot_pass_page .left_content form p {
     margin: 0;
     padding: 0;
     text-align: center;
-}
-
-.re_pass_page .left_content form h5 {
     font-weight: 700;
     margin: 10px 0px;
 }
 
-.re_pass_page .left_content form .item_bottom {
+.forgot_pass_page .left_content form .item_bottom {
     display: flex;
     justify-content: space-around;
     margin: 30px 0px;
 }
 
-.re_pass_page .left_content form .item_bottom button {
+.forgot_pass_page .left_content form .item_bottom button {
     padding: 5px 0;
     width: 160px;
     border: none;
@@ -64,24 +60,36 @@ p {
     background-color: transparent;
 }
 
-.re_pass_page .left_content form .item_bottom .next {
+.forgot_pass_page .left_content form .item_bottom .next {
     background-color: #FF9138;
     color: white;
 }
 
-.re_pass_page .left_content form .item_bottom .exit {
+.forgot_pass_page .left_content form .item_bottom .exit {
     border: 1px solid #FF9138;
     color: #FF9138;
+}
+
+.forgot_pass_page .left_content form .password {
+    position: relative;
+}
+
+.forgot_pass_page .left_content form .password i {
+    position: absolute;
+    right: 1vh;
+    color: #535261;
+    bottom: 2vh;
+    font-size: 14px;
 }
 
 
 /* Right content */
 
-.re_pass_page .right_content {
+.forgot_pass_page .right_content {
     height: 100%;
     background-color: white;
 }
 
-.re_pass_page .right_content .bg_right {
+.forgot_pass_page .right_content .bg_right {
     margin: auto;
 }

@@ -7,7 +7,7 @@ type Props = {}
 
 const Re_password = (props: Props) => {
     return (
-        <div className='login_page'>
+        <div className='re_pass_page'>
             <div className="left_content col-5">
                 <div className="logo_left col-3">
                     <img src={logo} width="100%" alt="" />

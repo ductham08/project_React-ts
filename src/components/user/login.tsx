@@ -22,7 +22,7 @@ const Login = (props: Props) => {
                             <input type="password" />
                             <i className="fa-regular fa-eye-slash"></i>
                         </div>
-                        <p><a href="#">Quên mật khẩu?</a></p>
+                        <p><a href="./repass">Quên mật khẩu?</a></p>
                         <button className='submit'>Đăng nhập</button>
                     </form>
                 </div>
