@@ -25,7 +25,7 @@ function App() {
                 </Route>
                 {/* Admin */}
                 <Route path="admin" element={<Admin_layout />}>
-                    <Route index element={<Dashboard_layout />}></Route>
+                    <Route path="dashboard" element={<Dashboard_layout />}></Route>
                     <Route path="user" element={<Info_user />}></Route>
                     <Route path="device" element={<Device_layout />}></Route>
                     <Route path="service" element={<Service_layout />}></Route>

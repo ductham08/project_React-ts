@@ -31,7 +31,6 @@
     border: none;
     color: #ff7506;
     font-weight: 700;
-    margin-bottom: 200px;
 }
 
 .navbar .menu-navbar .log-out p {
@@ -88,10 +87,27 @@
 
 li:has( a.active_navlink) {
     background-color: #ff7506;
+    color: white;
 }
 
-li:has( a.unselected) {
-    background-color: #ffffff;
+li:has( a.active_navlink) a {
+    color: white !important;
+}
+
+li:has( a.active_navlink) svg path {
+    stroke: white !important;
+}
+
+li:has( a.active_navlink):hover {
+    background-color: #ff7506 !important;
+}
+
+li:has( a.active_navlink):hover a {
+    color: white !important;
+}
+
+li:has( a.active_navlink):hover svg path {
+    stroke: white !important;
 }
 
 .main {
