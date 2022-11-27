@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from "../../../public/image/logo.png"
-import bg_forgot from "../../../public/image/background_Repass.png"
-import "../../../public/css/re_password.css"
+import logo from "../../public/image/logo.png"
+import bg_forgot from "../../public/image/background_Repass.png"
+import "../../public/css/user/re_password.css"
 
 type Props = {}
 

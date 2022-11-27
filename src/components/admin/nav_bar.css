@@ -1,9 +1,4 @@
-.admin_layout {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.admin_layout .navbar {
+.navbar {
     box-shadow: 0px 0px 5px 0px black;
     display: flex;
     flex-direction: column;
@@ -11,11 +6,11 @@
     justify-content: flex-start;
 }
 
-.admin_layout .navbar .logo-navbar {
+.navbar .logo-navbar {
     margin: 15px auto;
 }
 
-.admin_layout .navbar .menu-navbar {
+.navbar .menu-navbar {
     margin-top: 15px;
     display: flex;
     min-height: 100vh;
@@ -25,7 +20,7 @@
     width: 100%;
 }
 
-.admin_layout .navbar .menu-navbar .log-out {
+.navbar .menu-navbar .log-out {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -36,20 +31,21 @@
     border: none;
     color: #ff7506;
     font-weight: 700;
+    margin-bottom: 200px;
 }
 
-.admin_layout .navbar .menu-navbar .log-out p {
+.navbar .menu-navbar .log-out p {
     margin: 0;
     padding: 0 0 0 5px;
 }
 
-.admin_layout .navbar .menu-navbar ul {
+.navbar .menu-navbar ul {
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-.admin_layout .navbar .menu-navbar ul li {
+.navbar .menu-navbar ul li {
     list-style-type: none;
     padding: 10px 0px;
     display: flex;
@@ -57,57 +53,65 @@
     align-items: center;
 }
 
-.admin_layout .navbar .menu-navbar ul li a {
+.navbar .menu-navbar ul li a {
     padding-left: 20px;
 }
 
-.admin_layout .navbar .menu-navbar ul li:hover {
+.navbar .menu-navbar ul li:hover {
     background-color: #FFF2E7;
 }
 
-.admin_layout .navbar .menu-navbar ul li:hover a {
+.navbar .menu-navbar ul li:hover a {
     color: #ff7506;
 }
 
-.admin_layout .navbar .menu-navbar ul li:hover svg path {
+.navbar .menu-navbar ul li:hover svg path {
     stroke: #ff7506;
 }
 
-.admin_layout .navbar .menu-navbar ul li svg {
+.navbar .menu-navbar ul li svg {
     margin-right: 10px;
 }
 
-.admin_layout .navbar .menu-navbar ul li a {
+.navbar .menu-navbar ul li a {
     text-decoration: none;
     color: #7E7D88;
     display: flex;
     justify-content: space-between;
 }
 
-.admin_layout .navbar .menu-navbar ul li button {
+.navbar .menu-navbar ul li button {
     background-color: transparent;
     border: none;
     text-align: left;
 }
 
-.admin_layout .main {
+li:has( a.active_navlink) {
+    background-color: #ff7506;
+}
+
+li:has( a.unselected) {
+    background-color: #ffffff;
+}
+
+.main {
     background-color: #F6F6F6;
     padding: 15px 20px;
 }
 
-.admin_layout .main .title-main {
+.main .title-main {
     display: flex;
     justify-content: space-between;
 }
 
-.admin_layout .main .title-main .navbar-title {
+.main .title-main .navbar-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 15px;
 }
 
-.admin_layout .main .title-main .navbar-title button {
+.main .title-main .navbar-title button {
     background-color: transparent;
     border: none;
     padding: 5px 7px;
@@ -116,29 +120,29 @@
     text-align: center;
 }
 
-.admin_layout .main .title-main .navbar-title button svg path {
+.main .title-main .navbar-title button svg path {
     fill: #ff7506;
 }
 
-.admin_layout .main .title-main .navbar-title h5 {
+.main .title-main .navbar-title h5 {
     padding: 0;
     margin: 0;
     color: #ff7506;
     font-weight: 700;
 }
 
-.admin_layout .main .title-main .user-title {
+.main .title-main .user-title {
     display: flex;
     justify-content: flex-start;
     padding-left: 25px;
     align-items: center;
 }
 
-.admin_layout .main .title-main .user-title .avata-user img {
+.main .title-main .user-title .avata-user img {
     border-radius: 100%;
 }
 
-.admin_layout .main .title-main .user-title .name-user {
+.main .title-main .user-title .name-user {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -146,12 +150,12 @@
     padding-left: 10px;
 }
 
-.admin_layout .main .title-main .user-title .name-user p,
-.admin_layout .main .title-main .user-title .name-user h5 {
+.main .title-main .user-title .name-user p,
+.main .title-main .user-title .name-user h5 {
     padding: 0;
     margin: 0;
 }
 
-.admin_layout .main .title-main .user-title .name-user h5 {
+.main .title-main .user-title .name-user h5 {
     font-weight: 700;
 }

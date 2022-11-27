@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import "../../../public/css/user.css"
-import imglogin from "../../../public/image/img_login.png"
+import "../../public/css/user/user.css"
 
 
 type Props = {}
