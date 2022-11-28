@@ -18,11 +18,9 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/" element={<User_layout />}>
-                    <Route path="login" element={<Login />}></Route>
-                    <Route path="repass" element={<Re_password />}></Route>
-                    <Route path="forgotpass" element={<Forgot_password />}></Route>
-                </Route>
+                <Route path="login" element={<Login />}></Route>
+                <Route path="repass" element={<Re_password />}></Route>
+                <Route path="forgotpass" element={<Forgot_password />}></Route>
                 {/* Admin */}
                 <Route path="admin" element={<Admin_layout />}>
                     <Route path="dashboard" element={<Dashboard_layout />}></Route>
@@ -34,7 +32,7 @@ function App() {
                     <Route path="setting" element={<Setting_layout />}></Route>
                 </Route>
             </Routes>
-        </div>
+        </div >
     );
 }
 
