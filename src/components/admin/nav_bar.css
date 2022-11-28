@@ -68,6 +68,10 @@
     stroke: #ff7506;
 }
 
+.navbar .menu-navbar ul li:hover svg circle {
+    stroke: #ff7506;
+}
+
 .navbar .menu-navbar ul li svg {
     margin-right: 10px;
 }
@@ -98,6 +102,10 @@ li:has( a.active_navlink) svg path {
     stroke: white !important;
 }
 
+li:has( a.active_navlink) svg circle {
+    stroke: white !important;
+}
+
 li:has( a.active_navlink):hover {
     background-color: #ff7506 !important;
 }
@@ -107,6 +115,10 @@ li:has( a.active_navlink):hover a {
 }
 
 li:has( a.active_navlink):hover svg path {
+    stroke: white !important;
+}
+
+li:has( a.active_navlink):hover svg circle {
     stroke: white !important;
 }
 
