@@ -7,6 +7,7 @@ type Props = {}
 const Number_layout = (props: Props) => {
     return (
         <div className="number_page">
+            {/* Title */}
             <div className="title_page">
                 <div className="nav_number_page">
                     <div className="url_nav">
@@ -40,12 +41,13 @@ const Number_layout = (props: Props) => {
                 </div>
                 <h4>Quản lý cấp số</h4>
             </div>
+            {/* Main */}
             <div className="main_page">
                 <div className="table_main col-11">
                     <div className="select_table">
                         <div className="item_select">
                             <b>Tên dịch vụ</b>
-                            <div className="select_option col-1">
+                            <div className="select_option">
                                 <select className='select_service'>
                                     <option selected>Tất cả</option>
                                     <option value="">Đang chờ</option>
@@ -62,7 +64,7 @@ const Number_layout = (props: Props) => {
                         </div>
                         <div className="item_select">
                             <b>Tình trạng</b>
-                            <div className="select_option col-1">
+                            <div className="select_option">
                                 <select className='select_service'>
                                     <option selected>Tất cả</option>
                                     <option value="">Kiossh</option>
@@ -77,8 +79,8 @@ const Number_layout = (props: Props) => {
                             </div>
                         </div>
                         <div className="item_select">
-                            <b>Dịch vụ</b>
-                            <div className="select_option col-1">
+                            <b>Nguồn cấp</b>
+                            <div className="select_option">
                                 <select className='select_service'>
                                     <option selected>Tất cả</option>
                                     <option value="">Khám sản - Phụ khoa</option>
@@ -93,9 +95,220 @@ const Number_layout = (props: Props) => {
                                 </p>
                             </div>
                         </div>
+                        <div className="item_select">
+                            <b>Chọn thời gian</b>
+                            <div className="select_option">
+                                <select className='select_service'>
+                                    <option selected>Tất cả</option>
+                                    <option value="">Khám sản - Phụ khoa</option>
+                                    <option value="">Khám răng hàm mặt</option>
+                                    <option value="">Khám tai mũi họng</option>
+                                </select>
+                                <p>
+                                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13 7L7 0.999999L1 7" fill="#FF7506" />
+                                        <path d="M13 7L7 0.999999L1 7L13 7Z" stroke="#FF7506" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="item_select">
+                            <b>Từ khóa</b>
+                            <div className="select_option input_text">
+                                <form>
+                                    <input type="text" />
+                                    <button>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z" stroke="#FF7506" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M17.5 17.5L13.875 13.875" stroke="#FF7506" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Data */}
+                    <div className="data_table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Stt</td>
+                                    <td>Tên khách hàng</td>
+                                    <td>Tên dịch vụ</td>
+                                    <td>Thời gian cấp</td>
+                                    <td>Hạn sử dụng</td>
+                                    <td>Trạng thái</td>
+                                    <td>Nguồn cấp</td>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2010001</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tim mạch</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='pending_status'></button>
+                                        Đang chờ
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010001</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám sản - Phụ Khoa</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='final_status'></button>
+                                        Đã sử dụng
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010002</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tai mũi họng</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='remove_status'></button>
+                                        Bỏ qua
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010003</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tim mạch</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='remove_status'></button>
+                                        Đang chờ
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010004</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tim mạch</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='remove_status'></button>
+                                        Đang chờ
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010005</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tim mạch</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='remove_status'></button>
+                                        Đang chờ
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010006</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tim mạch</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='remove_status'></button>
+                                        Đang chờ
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010007</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tim mạch</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='remove_status'></button>
+                                        Đang chờ
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010008</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tim mạch</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='remove_status'></button>
+                                        Đang chờ
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                                <tr>
+                                    <td>2010009</td>
+                                    <td>Lê Huỳnh Ái Vân</td>
+                                    <td>Khám tim mạch</td>
+                                    <td>14:35 - 07/11/2021</td>
+                                    <td>14:35 - 12/11/2021</td>
+                                    <td>
+                                        <button className='remove_status'></button>
+                                        Đang chờ
+                                    </td>
+                                    <td>Kiosk</td>
+                                    <td><Link to="#">Chi tiết</Link></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    {/* Nav page */}
+                    <div className="nav_number_data">
+                        <button>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 7L9 12L15 17" fill="#A9A9B0" />
+                                <path d="M15 7L9 12L15 17L15 7Z" stroke="#A9A9B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button className='page_active'>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>...</button>
+                        <button>10</button>
+                        <button>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 17L15 12L9 7" fill="#7E7D88" />
+                                <path d="M9 17L15 12L9 7L9 17Z" stroke="#7E7D88" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
-                <div className="button_add col-1"></div>
+                <div className="button_add">
+                    <button>
+                        <Link to="">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.8884 2.33301H9.11171C4.86504 2.33301 2.33337 4.86467 2.33337 9.11134V18.8763C2.33337 23.1347 4.86504 25.6663 9.11171 25.6663H18.8767C23.1234 25.6663 25.655 23.1347 25.655 18.888V9.11134C25.6667 4.86467 23.135 2.33301 18.8884 2.33301ZM18.6667 14.8747H14.875V18.6663C14.875 19.1447 14.4784 19.5413 14 19.5413C13.5217 19.5413 13.125 19.1447 13.125 18.6663V14.8747H9.33337C8.85504 14.8747 8.45837 14.478 8.45837 13.9997C8.45837 13.5213 8.85504 13.1247 9.33337 13.1247H13.125V9.33301C13.125 8.85467 13.5217 8.45801 14 8.45801C14.4784 8.45801 14.875 8.85467 14.875 9.33301V13.1247H18.6667C19.145 13.1247 19.5417 13.5213 19.5417 13.9997C19.5417 14.478 19.145 14.8747 18.6667 14.8747Z" fill="#FF9138" />
+                            </svg>
+                            <p>Cấp số mới</p>
+                        </Link>
+                    </button>
+                </div>
             </div>
         </div>
     )

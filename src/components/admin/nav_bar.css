@@ -1,9 +1,9 @@
 .navbar {
     box-shadow: 0px 0px 5px 0px black;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
+    min-height: 100vh !important;
+    justify-content: flex-start !important;
 }
 
 .navbar .logo-navbar {
@@ -13,7 +13,7 @@
 .navbar .menu-navbar {
     margin-top: 15px;
     display: flex;
-    min-height: 100vh;
+    min-height: 70vh;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -124,7 +124,7 @@ li:has( a.active_navlink):hover svg circle {
 
 .main {
     background-color: #F6F6F6;
-    padding: 15px 20px;
+    padding: 15px 0px 15px 20px;
 }
 
 .main .title-main {
