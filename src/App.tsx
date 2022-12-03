@@ -14,6 +14,7 @@ import Re_password from "./page/user/re_password";
 import Forgot_password from "./page/user/forgot_password";
 import Info_user from "./page/user/user";
 import New_number from "./page/admin/number_new";
+import Detail_number from "./page/admin/detail_number";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                     <Route path="device" element={<Device_layout />}></Route>
                     <Route path="service" element={<Service_layout />}></Route>
                     <Route path="number" element={<Number_layout />}></Route>
+                    <Route path="number/:id" element={<Detail_number />}></Route>
                     <Route path="number/new" element={<New_number />}></Route>
                     <Route path="statement" element={<Statement_layout />}></Route>
                     <Route path="setting" element={<Setting_layout />}></Route>

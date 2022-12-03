@@ -1,0 +1,190 @@
+.detail_number_page .nav_number_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+.detail_number_page .nav_number_page .url_nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.detail_number_page .nav_number_page .url_nav p {
+    padding: 0 10px 0px 0px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.detail_number_page .nav_number_page .url_nav p a {
+    text-decoration: none;
+    color: #7E7D88;
+}
+
+.detail_number_page .nav_number_page .url_nav .url_2 a {
+    color: #FF7506;
+}
+
+
+/* user nav */
+
+.detail_number_page .user_nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.detail_number_page .user_nav button {
+    width: 35px;
+    height: 35px;
+    background-color: #FFF2E7;
+    border-radius: 100px;
+    border: none;
+}
+
+.detail_number_page .user_nav .user {
+    padding-left: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.detail_number_page .user_nav .user .avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.detail_number_page .user_nav .user .avatar img {
+    border-radius: 100px;
+}
+
+.detail_number_page .user_nav .user .info_user {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.detail_number_page .user_nav .user .info_user p {
+    padding: 0;
+    margin: 0;
+}
+
+.detail_number_page .user_nav .user .info_user .name_user {
+    font-weight: 700;
+}
+
+.detail_number_page .user_nav .user .info_user .name_user a {
+    text-decoration: none;
+    color: #535261;
+}
+
+
+/* title */
+
+.detail_number_page h4 {
+    color: #FF7506;
+    font-weight: 700;
+}
+
+
+/* Main */
+
+.detail_number_page .main_page {
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail_number_page .main_page .detail {
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 1em;
+    overflow: hidden;
+    border: none;
+    padding: 15px 20px;
+    min-height: 80vh;
+}
+
+.detail_number_page .main_page .detail h5 {
+    color: #FF7506;
+    font-weight: 700;
+}
+
+.detail_number_page .main_page .detail .main_detail {
+    margin: 15px 0px;
+    display: flex;
+}
+
+.detail_number_page .main_page .detail .main_detail .table_detail {
+    width: 50%;
+}
+
+.detail_number_page .main_page .detail .main_detail .table_detail table {
+    width: 100%;
+}
+
+.detail_number_page .main_page .detail .main_detail .table_detail table tr td {
+    padding: 5px 0px;
+}
+
+.detail_number_page .main_page .detail .main_detail .table_detail table p {
+    text-align: left;
+    color: #535261;
+    margin: 0;
+}
+
+
+/* Button action status */
+
+.detail_number_page .main_page .detail .main_detail .table_detail table .status {
+    display: flex;
+    align-items: center;
+}
+
+.detail_number_page .main_page .detail .main_detail .table_detail table tr td .pending_status {
+    background-color: #4277FF;
+    border: 0;
+    width: 7px;
+    border-radius: 25px;
+    height: 7px;
+    margin-right: 5px;
+}
+
+
+/* End main */
+
+
+/* Button add  */
+
+.detail_number_page .button_add {
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.detail_number_page .button_add button a {
+    text-decoration: none;
+}
+
+.detail_number_page .button_add button {
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding: 5px 15px;
+    background-color: #FFF2E7;
+}
+
+.detail_number_page .button_add button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.detail_number_page .button_add button p {
+    margin: 0;
+    padding: 0;
+    color: #FF7506;
+}
+
+
+/* End button add */
