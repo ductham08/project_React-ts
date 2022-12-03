@@ -1,6 +1,5 @@
-import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import "../../public/css/admin/number_page.css"
+import "../../../public/css/admin/number_page.css"
 
 type Props = {}
 
@@ -49,7 +48,7 @@ const Number_layout = (props: Props) => {
                             <b>Tên dịch vụ</b>
                             <div className="select_option">
                                 <select className='select_service'>
-                                    <option selected>Tất cả</option>
+                                    <option selected value="" disabled hidden>Tất cả</option>
                                     <option value="">Đang chờ</option>
                                     <option value="">Đã sử dụng</option>
                                     <option value="">Bỏ qua</option>
@@ -66,7 +65,7 @@ const Number_layout = (props: Props) => {
                             <b>Tình trạng</b>
                             <div className="select_option">
                                 <select className='select_service'>
-                                    <option selected>Tất cả</option>
+                                    <option selected value="" disabled hidden>Tất cả</option>
                                     <option value="">Kiossh</option>
                                     <option value="">Hệ thống</option>
                                 </select>
@@ -82,7 +81,7 @@ const Number_layout = (props: Props) => {
                             <b>Nguồn cấp</b>
                             <div className="select_option">
                                 <select className='select_service'>
-                                    <option selected>Tất cả</option>
+                                    <option selected value="" disabled hidden>Tất cả</option>
                                     <option value="">Khám sản - Phụ khoa</option>
                                     <option value="">Khám răng hàm mặt</option>
                                     <option value="">Khám tai mũi họng</option>
@@ -99,7 +98,7 @@ const Number_layout = (props: Props) => {
                             <b>Chọn thời gian</b>
                             <div className="select_option">
                                 <select className='select_service'>
-                                    <option selected>Tất cả</option>
+                                    <option selected value="" disabled hidden>Tất cả</option>
                                     <option value="">Khám sản - Phụ khoa</option>
                                     <option value="">Khám răng hàm mặt</option>
                                     <option value="">Khám tai mũi họng</option>
@@ -116,7 +115,7 @@ const Number_layout = (props: Props) => {
                             <b>Từ khóa</b>
                             <div className="select_option input_text">
                                 <form>
-                                    <input type="text" />
+                                    <input type="text" placeholder="Nhập từ khóa" />
                                     <button>
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z" stroke="#FF7506" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

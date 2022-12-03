@@ -1,14 +1,13 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-import "../../public/css/admin/new_number_page.css"
+
+import "../../../public/css/admin/detail_number_page.css"
 
 
 type Props = {}
 
-const New_number = (props: Props) => {
+const Detail_number = (props: Props) => {
     return (
-        <div className='new_number_page'>
-            {/* Title page */}
+        <div className='detail_number_page'>
             <div className="title_page">
                 <div className="nav_number_page">
                     <div className="url_nav">
@@ -24,9 +23,8 @@ const New_number = (props: Props) => {
                                 <path d="M5.35833 4.40874L1.825 0.875405C1.74753 0.797298 1.65536 0.735302 1.55381 0.692995C1.45226 0.650688 1.34334 0.628906 1.23333 0.628906C1.12332 0.628906 1.0144 0.650688 0.912851 0.692995C0.811302 0.735302 0.719134 0.797298 0.641665 0.875405C0.486456 1.03154 0.399338 1.24275 0.399338 1.4629C0.399338 1.68306 0.486456 1.89427 0.641665 2.0504L3.59167 5.0004L0.641665 7.9504C0.486456 8.10654 0.399338 8.31775 0.399338 8.5379C0.399338 8.75806 0.486456 8.96927 0.641665 9.1254C0.719532 9.20264 0.811878 9.26374 0.91341 9.30521C1.01494 9.34668 1.12366 9.3677 1.23333 9.36707C1.343 9.3677 1.45172 9.34668 1.55325 9.30521C1.65478 9.26374 1.74713 9.20264 1.825 9.1254L5.35833 5.59207C5.43644 5.5146 5.49843 5.42243 5.54074 5.32088C5.58305 5.21934 5.60483 5.11041 5.60483 5.0004C5.60483 4.89039 5.58305 4.78147 5.54074 4.67992C5.49843 4.57837 5.43644 4.48621 5.35833 4.40874Z" fill="#7E7D88" />
                             </svg>
                         </p>
-                        <p className='url_2'><Link to="">Cấp số mới</Link></p>
+                        <p className='url_2'><Link to="">Chi tiết</Link></p>
                     </div>
-                    {/* User */}
                     <div className="user_nav">
                         <button>
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,34 +47,75 @@ const New_number = (props: Props) => {
                 </div>
                 <h4>Quản lý cấp số</h4>
             </div>
-            {/* Main page */}
+            {/* End title */}
             <div className="main_page">
-                <div className="col-4">
-                    <h2>Cấp số mới</h2>
-                    <p>Dịch vụ khách hàng lựa chọn</p>
-                    <div className="select_box">
-                        <select>
-                            <option selected>Chọn dịch vụ</option>
-                            <option>Khám tim mạch</option>
-                            <option>Khám sản - Phụ khoa</option>
-                            <option>Khám răng hàm mặt</option>
-                            <option>Khám tai mũi họng</option>
-                        </select>
-                        <p>
-                            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 7L7 0.999999L1 7" fill="#FF7506" />
-                                <path d="M13 7L7 0.999999L1 7L13 7Z" stroke="#FF7506" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </p>
-                    </div>
-                    <div className="list_button">
-                        <button className='exit'>Hủy bỏ</button>
-                        <button className='next'>In số</button>
+                <div className="detail col-11">
+                    <h5>Thông tin cấp số</h5>
+                    <div className="main_detail">
+                        <div className='table_detail'>
+                            <table>
+                                <tr>
+                                    <td><b>Họ tên:</b></td>
+                                    <td><p>Nguyễn Thị Dung</p></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Tên dịch vụ:</b></td>
+                                    <td><p>Khám tim mạch</p></td>
+                                </tr>
+                                <tr>
+                                    <td> <b>Số thứ tự:</b></td>
+                                    <td> <p>2001201</p></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Thời gian cấp:</b></td>
+                                    <td><p>14:35 - 07/11/2021</p></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Hạn sử dụng:</b></td>
+                                    <td><p>14:35 - 07/11/2021</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div className='table_detail'>
+                            <table>
+                                <tr>
+                                    <td><b>Nguồn cấp:</b></td>
+                                    <td><p>Kiosk</p></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Trạng thái:</b></td>
+                                    <td className='status'>
+                                        <p>
+                                            <button className='pending_status'></button> Đang chờ
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Số điện thoại:</b></td>
+                                    <td><p>0948523623</p></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Địa chỉ Email:</b></td>
+                                    <td><p>Nguyendung@gmail.com</p></td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
+                <div className="button_add">
+                    <button>
+                        <Link to="../number">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.8885 2.33301H9.11183C4.86516 2.33301 2.3335 4.86467 2.3335 9.11134V18.8763C2.3335 23.1347 4.86516 25.6663 9.11183 25.6663H18.8768C23.1235 25.6663 25.6552 23.1347 25.6552 18.888V9.11134C25.6668 4.86467 23.1352 2.33301 18.8885 2.33301ZM16.2402 18.818H10.5002C10.0218 18.818 9.62516 18.4213 9.62516 17.943C9.62516 17.4647 10.0218 17.068 10.5002 17.068H16.2402C17.7335 17.068 18.9585 15.8547 18.9585 14.3497C18.9585 12.8447 17.7452 11.6313 16.2402 11.6313H10.3252L10.6285 11.9347C10.9668 12.2847 10.9668 12.833 10.6168 13.183C10.4418 13.358 10.2202 13.4397 9.9985 13.4397C9.77683 13.4397 9.55516 13.358 9.38016 13.183L7.5485 11.3397C7.21016 11.0013 7.21016 10.4413 7.5485 10.103L9.38016 8.27134C9.7185 7.93301 10.2785 7.93301 10.6168 8.27134C10.9552 8.60967 10.9552 9.16967 10.6168 9.50801L10.2318 9.89301H16.2402C18.7018 9.89301 20.7085 11.8997 20.7085 14.3613C20.7085 16.823 18.7018 18.818 16.2402 18.818Z" fill="#FF9138" />
+                            </svg>
+                            <p>Quay lại</p>
+                        </Link>
+                    </button>
+                </div>
             </div>
+            {/* End main */}
         </div>
     )
 }
 
-export default New_number
+export default Detail_number
