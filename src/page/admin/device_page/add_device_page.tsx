@@ -47,7 +47,7 @@ const Add_device_page = (props: Props) => {
                 <h4>Quản lý thiết bị</h4>
             </div>
             {/* Main page */}
-            <div className="main_page ">
+            <div className="main_page">
                 <div className="form_data">
                     <h5>Thông tin thiết bị</h5>
                     <div className="form">

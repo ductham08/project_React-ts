@@ -129,7 +129,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
@@ -152,7 +152,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
@@ -175,7 +175,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
@@ -198,7 +198,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
@@ -221,7 +221,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
@@ -244,7 +244,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
@@ -267,7 +267,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
@@ -290,7 +290,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
@@ -313,7 +313,7 @@ const Device_layout = (props: Props) => {
                                         <p>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</p>
                                         <Link to="">Xem thêm</Link>
                                     </td>
-                                    <td><Link to="">Chi tiết</Link></td>
+                                    <td><Link to="KIO_01">Chi tiết</Link></td>
                                     <td><Link to="">Cập nhật</Link></td>
                                 </tr>
                             </tbody>

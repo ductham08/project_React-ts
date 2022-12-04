@@ -1,0 +1,179 @@
+.detail_device_page .nav_number_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+.detail_device_page .nav_number_page .url_nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.detail_device_page .nav_number_page .url_nav p {
+    padding: 0 10px 0px 0px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.detail_device_page .nav_number_page .url_nav p a {
+    text-decoration: none;
+    color: #7E7D88;
+}
+
+.detail_device_page .nav_number_page .url_nav .url_2 a {
+    color: #FF7506;
+}
+
+
+/* user nav */
+
+.detail_device_page .user_nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.detail_device_page .user_nav button {
+    width: 35px;
+    height: 35px;
+    background-color: #FFF2E7;
+    border-radius: 100px;
+    border: none;
+}
+
+.detail_device_page .user_nav .user {
+    padding-left: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.detail_device_page .user_nav .user .avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.detail_device_page .user_nav .user .avatar img {
+    border-radius: 100px;
+}
+
+.detail_device_page .user_nav .user .info_user {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.detail_device_page .user_nav .user .info_user p {
+    padding: 0;
+    margin: 0;
+}
+
+.detail_device_page .user_nav .user .info_user .name_user {
+    font-weight: 700;
+}
+
+.detail_device_page .user_nav .user .info_user .name_user a {
+    text-decoration: none;
+    color: #535261;
+}
+
+.detail_device_page h4 {
+    color: #FF7506;
+    font-weight: 700;
+}
+
+
+/* End title */
+
+
+/* Button add  */
+
+.detail_device_page .button_add {
+    margin-left: 15px;
+}
+
+.detail_device_page .button_add button a {
+    text-decoration: none;
+}
+
+.detail_device_page .button_add button {
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding: 5px;
+    background-color: #FFF2E7;
+}
+
+.detail_device_page .button_add button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.detail_device_page .button_add button p {
+    margin: 0;
+    padding: 0;
+    color: #FF7506;
+}
+
+
+/* End button add */
+
+
+/* Main */
+
+.detail_device_page .main_page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail_device_page .main_page .data h5 {
+    font-weight: 700;
+    color: #FF7506;
+}
+
+.detail_device_page .main_page .data {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: 75vh;
+}
+
+.detail_device_page .main_page .data .detail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.detail_device_page .main_page .data .item_data {
+    width: 50%;
+    margin: 0;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.detail_device_page .main_page .data .item_data b {
+    width: 130px;
+}
+
+.detail_device_page .main_page .data .item_data p {
+    padding: 0;
+    margin: 0;
+    color: #535261;
+}
+
+.detail_device_page .main_page .data .item {
+    padding: 10px 0px;
+}
+
+.detail_device_page .main_page .data .item p {
+    padding-top: 10px;
+}
+
+
+/* End main */
