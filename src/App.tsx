@@ -6,7 +6,7 @@ import Device_layout from "./page/admin/device_page/device";
 import Number_layout from "./page/admin/number_page/number";
 import Service_layout from "./page/admin/service";
 import Setting_layout from "./page/admin/setting";
-import Statement_layout from "./page/admin/statement";
+import Statement_layout from "./page/admin/statement_page/statement";
 import Admin_layout from "./layouts/admin";
 import Login from "./page/user/login";
 import Re_password from "./page/user/re_password";
