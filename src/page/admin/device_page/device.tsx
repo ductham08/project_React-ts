@@ -130,7 +130,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>KI0_01</td>
@@ -153,7 +153,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>KI0_01</td>
@@ -176,7 +176,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>KI0_01</td>
@@ -199,7 +199,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>KI0_01</td>
@@ -222,7 +222,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>KI0_01</td>
@@ -245,7 +245,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>KI0_01</td>
@@ -268,7 +268,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>KI0_01</td>
@@ -291,7 +291,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>KI0_01</td>
@@ -314,7 +314,7 @@ const Device_layout = (props: Props) => {
                                         <Link to="">Xem thêm</Link>
                                     </td>
                                     <td><Link to="KIO_01">Chi tiết</Link></td>
-                                    <td><Link to="">Cập nhật</Link></td>
+                                    <td><Link to="update/KIO_01">Cập nhật</Link></td>
                                 </tr>
                             </tbody>
                         </table>

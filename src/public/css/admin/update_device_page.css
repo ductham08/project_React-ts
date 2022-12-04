@@ -1,0 +1,216 @@
+.add_device_page .nav_number_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+.add_device_page .nav_number_page .url_nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.add_device_page .nav_number_page .url_nav p {
+    padding: 0 10px 0px 0px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.add_device_page .nav_number_page .url_nav p a {
+    text-decoration: none;
+    color: #7E7D88;
+}
+
+.add_device_page .nav_number_page .url_nav .url_2 a {
+    color: #FF7506;
+}
+
+
+/* user nav */
+
+.add_device_page .user_nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add_device_page .user_nav button {
+    width: 35px;
+    height: 35px;
+    background-color: #FFF2E7;
+    border-radius: 100px;
+    border: none;
+}
+
+.add_device_page .user_nav .user {
+    padding-left: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add_device_page .user_nav .user .avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.add_device_page .user_nav .user .avatar img {
+    border-radius: 100px;
+}
+
+.add_device_page .user_nav .user .info_user {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.add_device_page .user_nav .user .info_user p {
+    padding: 0;
+    margin: 0;
+}
+
+.add_device_page .user_nav .user .info_user .name_user {
+    font-weight: 700;
+}
+
+.add_device_page .user_nav .user .info_user .name_user a {
+    text-decoration: none;
+    color: #535261;
+}
+
+.add_device_page h4 {
+    color: #FF7506;
+    font-weight: 700;
+}
+
+
+/* End title */
+
+
+/* main */
+
+
+/* select box */
+
+.add_device_page .main_page .select_box {
+    width: 100%;
+    position: relative;
+}
+
+.add_device_page .main_page .select_box p {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 3px;
+    right: 1.5vh;
+}
+
+.add_device_page .main_page select {
+    width: 100%;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 5px;
+    border: 1px solid #D4D4D7;
+    padding: 2px 5px;
+}
+
+
+/* form */
+
+.add_device_page .main_page {
+    padding-right: 20px;
+}
+
+.add_device_page .main_page .form_data {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 65vh;
+}
+
+.add_device_page .main_page .form_data h5 {
+    color: #FF7506;
+    font-weight: 700;
+}
+
+.add_device_page .main_page .form_data .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.add_device_page .main_page .form_data b {
+    margin: 5px 0px;
+}
+
+.add_device_page .main_page .form_data .item_form {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.add_device_page .main_page .form_data input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #D4D4D7;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: #535261;
+}
+
+.add_device_page .main_page .form_data svg {
+    margin-left: 5px;
+}
+
+.add_device_page .main_page .form_data .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+
+.add_device_page .main_page .form_data .item p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.add_device_page .main_page .form_data .item p svg {
+    margin: 0;
+    margin-right: 5px;
+}
+
+
+/* List button */
+
+.add_device_page .main_page .list_button {
+    margin: 35px auto;
+    display: block;
+    text-align: center;
+}
+
+.add_device_page .main_page .list_button button {
+    padding: 7px 12px;
+    width: 130px;
+    border: none;
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
+.add_device_page .main_page .list_button button.exit {
+    border: 1px solid #FF7506;
+    color: #FF7506;
+    background-color: #FFF2E7;
+}
+
+.add_device_page .main_page .list_button button.next {
+    color: white;
+    background-color: #FF7506;
+}
