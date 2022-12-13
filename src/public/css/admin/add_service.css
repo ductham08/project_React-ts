@@ -1,0 +1,209 @@
+    .add_service .nav_number_page {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+        padding-right: 20px;
+    }
+    
+    .add_service .nav_number_page .url_nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .add_service .nav_number_page .url_nav p {
+        padding: 0 10px 0px 0px;
+        margin: 0;
+        font-weight: 700;
+    }
+    
+    .add_service .nav_number_page .url_nav p a {
+        text-decoration: none;
+        color: #7E7D88;
+    }
+    
+    .add_service .nav_number_page .url_nav .url_2 a {
+        color: #FF7506;
+    }
+    /* user nav */
+    
+    .add_service .user_nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .add_service .user_nav button {
+        width: 35px;
+        height: 35px;
+        background-color: #FFF2E7;
+        border-radius: 100px;
+        border: none;
+    }
+    
+    .add_service .user_nav .user {
+        padding-left: 25px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .add_service .user_nav .user .avatar {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .add_service .user_nav .user .avatar img {
+        border-radius: 100px;
+    }
+    
+    .add_service .user_nav .user .info_user {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+    
+    .add_service .user_nav .user .info_user p {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .add_service .user_nav .user .info_user .name_user {
+        font-weight: 700;
+    }
+    
+    .add_service .user_nav .user .info_user .name_user a {
+        text-decoration: none;
+        color: #535261;
+    }
+    /* End title */
+    /* select box */
+    
+    .add_service .main_page .select_box {
+        width: 100%;
+        position: relative;
+    }
+    
+    .add_service .main_page .select_box p {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 3px;
+        right: 1.5vh;
+    }
+    
+    .add_service .main_page select {
+        width: 100%;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border-radius: 5px;
+        border: 1px solid #D4D4D7;
+        padding: 2px 5px;
+    }
+    /* form */
+    
+    .add_service .main_page {
+        padding-right: 20px;
+    }
+    
+    .add_service .main_page .form_data {
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        min-height: 65vh;
+    }
+    
+    .add_service .main_page .form_data h5 {
+        color: #FF7506;
+        font-weight: 700;
+    }
+    
+    .add_service .main_page .form_data .form {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .add_service .main_page .form_data .form .item {
+        width: 49%;
+    }
+    
+    .add_service .main_page .form_data .form .item .item_form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .add_service .main_page .form_data .form .item .item_form input,
+    .add_service .main_page .form_data .form .item .item_form textarea {
+        width: 100%;
+        border: 1px solid #D4D4D7;
+        outline: none;
+        padding: 2px 5px;
+        border-radius: 7px;
+        margin: 10px 0px;
+    }
+    
+    .add_service .main_page .form_data .select_check_box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .add_service .main_page .form_data .select_check_box .item_check_box table td b {
+        padding: 0px 10px;
+    }
+    
+    .add_service .main_page .form_data .select_check_box .item_check_box table td {
+        padding: 5px 0px;
+    }
+    
+    .add_service .main_page .form_data .select_check_box .item_check_box table td.title_check {
+        width: 150px;
+    }
+    
+    .add_service .main_page .form_data .select_check_box .item_check_box table td input:disabled {
+        width: 50px;
+        padding: 2px 5px;
+        text-align: center;
+        border: 1px solid #D4D4D7;
+        border-radius: 5px;
+    }
+    
+    .add_service .main_page .form_data .select_check_box p {
+        margin: 10px 0px;
+    }
+    
+    .add_service .main_page .form_data svg {
+        width: 7px;
+        height: 7px;
+        margin: 0px 5px 0px 5px;
+    }
+    /* List button */
+    
+    .add_service .main_page .list_button {
+        margin: 35px auto;
+        display: block;
+        text-align: center;
+    }
+    
+    .add_service .main_page .list_button button {
+        padding: 7px 12px;
+        width: 130px;
+        border: none;
+        margin: 0px 15px;
+        border-radius: 5px;
+    }
+    
+    .add_service .main_page .list_button button.exit {
+        border: 1px solid #FF7506;
+        color: #FF7506;
+        background-color: #FFF2E7;
+    }
+    
+    .add_service .main_page .list_button button.next {
+        color: white;
+        background-color: #FF7506;
+    }

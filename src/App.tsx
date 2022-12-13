@@ -4,7 +4,7 @@ import "./App.css";
 import Dashboard_layout from "./page/admin/dashboard";
 import Device_layout from "./page/admin/device_page/device";
 import Number_layout from "./page/admin/number_page/number";
-import Service_layout from "./page/admin/service";
+import Service_layout from "./page/admin/service_page/service";
 import Setting_layout from "./page/admin/setting";
 import Statement_layout from "./page/admin/statement_page/statement";
 import Admin_layout from "./layouts/admin";
@@ -17,6 +17,7 @@ import Detail_number from "./page/admin/number_page/detail_number";
 import Add_device_page from "./page/admin/device_page/add_device_page";
 import Detail_device_page from "./page/admin/device_page/detail_device_page";
 import Update_device_page from "./page/admin/device_page/update_device_page";
+import Add_service from "./page/admin/service_page/add_service";
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                     <Route path="device/:id" element={<Detail_device_page />}></Route>
                     <Route path="device/update/:id" element={<Update_device_page />}></Route>
                     <Route path="service" element={<Service_layout />}></Route>
+                    <Route path="service/new" element={<Add_service />}></Route>
                     <Route path="number" element={<Number_layout />}></Route>
                     <Route path="number/:id" element={<Detail_number />}></Route>
                     <Route path="number/new" element={<New_number />}></Route>
