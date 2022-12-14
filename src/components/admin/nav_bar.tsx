@@ -10,9 +10,9 @@ const Nav_bar = (props: Props) => {
         return isActive ? 'active_navlink' : ''
     }
 
-    const [isActive, setActive] = useState(false);
-
     const active_submenu = () => {
+        const submenu = document.querySelector(".sub_menu");
+        submenu?.classList.toggle("sub_menu_active")
     }
     return (
         <div className="navbar">
@@ -111,11 +111,11 @@ const Nav_bar = (props: Props) => {
                             </svg>
                         </button>
                         {/* Sub menu */}
-                        <div className={isActive ? 'sub_menu sub_menu_active' : 'sub_menu'}>
+                        <div className='sub_menu'>
                             <ul>
-                                <li><NavLink to="">Quản lý vai trò</NavLink></li>
-                                <li><NavLink to="">Quản lý tài khoản</NavLink></li>
-                                <li><NavLink to="">Nhật ký người dùng</NavLink></li>
+                                <li><NavLink className={navLinkClass} to="./setting/role">Quản lý vai trò</NavLink></li>
+                                <li><NavLink className={navLinkClass} to="./setting/account">Quản lý tài khoản</NavLink></li>
+                                <li><NavLink className={navLinkClass} to="./setting/history">Nhật ký người dùng</NavLink></li>
                             </ul>
                         </div>
                     </li>

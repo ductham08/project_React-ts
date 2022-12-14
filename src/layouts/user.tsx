@@ -1,10 +1,13 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 type Props = {}
 
 const User_layout = (props: Props) => {
     return (
-        <div>User_layout</div>
+        <div>
+            <Outlet></Outlet>
+        </div>
     )
 }
 

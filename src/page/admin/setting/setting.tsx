@@ -1,10 +1,13 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 type Props = {}
 
 const Setting_layout = (props: Props) => {
     return (
-        <div>Setting_layout</div>
+        <div>
+            <Outlet></Outlet>
+        </div>
     )
 }
 

@@ -195,17 +195,24 @@ li:has( a.active_navlink):hover svg circle {
     position: relative;
 }
 
+.navbar .menu-navbar .sub_menu_active {
+    display: block !important;
+}
+
 .navbar .menu-navbar .sub_menu {
     position: absolute;
     right: -192px;
     background-color: white;
-    top: 44px;
     z-index: 999;
+    top: 0;
     display: none;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 5px black;
 }
 
 .navbar .menu-navbar .sub_menu ul li {
     padding: 10px 15px;
+    border-radius: 0px 5px 5px 0px;
 }
 
 .navbar .menu-navbar .sub_menu ul li {
@@ -218,4 +225,8 @@ li:has( a.active_navlink):hover svg circle {
 
 .navbar .menu-navbar .sub_menu ul li:hover a {
     color: #ff7506 !important;
+}
+
+.navbar .menu-navbar .sub_menu ul li a.active_navlink {
+    color: white !important;
 }
