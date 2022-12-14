@@ -7,3 +7,8 @@
     height: 100vh;
     overflow-y: auto;
 }
+
+.admin_layout .main::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}

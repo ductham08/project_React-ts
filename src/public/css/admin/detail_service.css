@@ -92,6 +92,11 @@
 
 /* Main page */
 
+.detail_service_page .main_page {
+    display: flex;
+    justify-content: space-between;
+}
+
 .detail_service_page .main_page .data_service {
     width: 60%;
     background-color: white;
@@ -292,4 +297,32 @@
     background-color: #FF7506;
     color: white;
     border-radius: 5px;
+}
+
+.detail_service_page .button_add {
+    padding-left: 15px;
+}
+
+.detail_service_page .button_add button a {
+    text-decoration: none;
+}
+
+.detail_service_page .button_add button {
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding: 5px 0px;
+    background-color: #FFF2E7;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.detail_service_page .button_add button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.detail_service_page .button_add button p {
+    margin: 0;
+    padding: 0;
+    color: #FF7506;
 }
