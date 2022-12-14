@@ -19,6 +19,7 @@ import Detail_device_page from "./page/admin/device_page/detail_device_page";
 import Update_device_page from "./page/admin/device_page/update_device_page";
 import Add_service from "./page/admin/service_page/add_service";
 import Detail_service from "./page/admin/service_page/detail_service";
+import Update_service from "./page/admin/service_page/update_service";
 
 function App() {
     return (
@@ -38,6 +39,7 @@ function App() {
                     <Route path="service" element={<Service_layout />}></Route>
                     <Route path="service/new" element={<Add_service />}></Route>
                     <Route path="service/:id" element={<Detail_service />}></Route>
+                    <Route path="service/update/:id" element={<Update_service />}></Route>
                     <Route path="number" element={<Number_layout />}></Route>
                     <Route path="number/:id" element={<Detail_number />}></Route>
                     <Route path="number/new" element={<New_number />}></Route>
