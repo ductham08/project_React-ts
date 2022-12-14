@@ -118,7 +118,7 @@ const Service_layout = (props: Props) => {
                                         Hoạt động
                                     </td>
                                     <td><Link to="2010001">Chi tiết</Link></td>
-                                    <td><Link to="2010001">Chi tiết</Link></td>
+                                    <td><Link to="./update/2010001">Cập nhật</Link></td>
                                 </tr>
                             </tbody>
                         </table>

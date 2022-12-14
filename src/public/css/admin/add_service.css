@@ -78,6 +78,11 @@
         text-decoration: none;
         color: #535261;
     }
+    
+    .add_service h4 {
+        color: #FF7506;
+        font-weight: 700;
+    }
     /* End title */
     /* select box */
     

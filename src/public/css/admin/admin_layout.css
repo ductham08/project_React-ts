@@ -1,3 +1,9 @@
 .admin_layout {
     display: flex;
+    height: 100vh;
+}
+
+.admin_layout .main {
+    height: 100vh;
+    overflow-y: auto;
 }
