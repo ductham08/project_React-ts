@@ -1,0 +1,274 @@
+.managa_history .nav_number_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+.managa_history .nav_number_page .url_nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.managa_history .nav_number_page .url_nav p {
+    padding: 0 10px 0px 0px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.managa_history .nav_number_page .url_nav p a {
+    text-decoration: none;
+    color: #7E7D88;
+}
+
+.managa_history .nav_number_page .url_nav .url_2 a {
+    color: #FF7506;
+}
+
+
+/* user nav */
+
+.managa_history .user_nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.managa_history .user_nav button {
+    width: 35px;
+    height: 35px;
+    background-color: #FFF2E7;
+    border-radius: 100px;
+    border: none;
+}
+
+.managa_history .user_nav .user {
+    padding-left: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.managa_history .user_nav .user .avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.managa_history .user_nav .user .avatar img {
+    border-radius: 100px;
+}
+
+.managa_history .user_nav .user .info_user {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.managa_history .user_nav .user .info_user p {
+    padding: 0;
+    margin: 0;
+}
+
+.managa_history .user_nav .user .info_user .name_user {
+    font-weight: 700;
+}
+
+.managa_history .user_nav .user .info_user .name_user a {
+    text-decoration: none;
+    color: #535261;
+}
+
+.managa_history h4 {
+    color: #FF7506;
+    font-weight: 700;
+}
+
+
+/* End title */
+
+
+/* main */
+
+.managa_history .main_page {
+    max-height: 100vh;
+    margin-right: 20px;
+}
+
+.managa_history .main_page .select_table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.managa_history .main_page .select_table .select {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.managa_history .main_page .select_table .select .item_select {
+    margin-right: 100px;
+}
+
+.managa_history .main_page .select_table .item_select .select_option {
+    position: relative;
+    width: 200px;
+}
+
+.managa_history .main_page .select_table .item_select .select_option select {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    left: 0;
+    padding: 3px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #D4D4D7;
+}
+
+.managa_history .main_page .select_table .item_select .select_option select:focus p {
+    transform: rotate(-360deg);
+}
+
+.managa_history .main_page .select_table .item_select .select_option select:focus .managa_history .main_page .select_table .item_select .select_option select option:hover {
+    background-color: #FFF2E7 !important;
+    color: red;
+}
+
+.managa_history .main_page .select_table .item_select .select_option p {
+    position: absolute;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+    top: 3px;
+    color: #535261;
+}
+
+.managa_history .main_page .select_table .item_select .input_text {
+    width: 100%;
+    border: 1px solid #D4D4D7;
+    border-radius: 5px;
+}
+
+.managa_history .main_page .select_table .item_select .input_text input,
+.managa_history .main_page .select_table .item_select .input_text button {
+    border: none;
+    padding: 3px 5px;
+    background-color: transparent;
+    outline: none;
+}
+
+
+/* data table */
+
+.managa_history .main_page .data_table table {
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 1em;
+    overflow: hidden;
+    border: none;
+}
+
+.managa_history .main_page .data_table table thead {
+    background-color: #FF7506;
+    color: white;
+}
+
+.managa_history .main_page .data_table table {
+    border: none;
+    border-radius: 10px;
+}
+
+.managa_history .main_page .data_table table tr td {
+    border-right: 1px solid #FFF2E7;
+    padding: 0px 10px;
+}
+
+.managa_history .main_page .data_table table tr td:last-child {
+    border-right: unset;
+}
+
+.managa_history .main_page .data_table table thead tr td {
+    padding: 10px 0px 10px 10px;
+}
+
+.managa_history .main_page .data_table table tbody tr:nth-child(even) {
+    background-color: #FFF2E7;
+}
+
+.managa_history .main_page .data_table table tbody tr td {
+    padding: 10px 0px 10px 10px;
+}
+
+.managa_history .main_page .data_table table tbody {
+    font-size: 15px;
+}
+
+.managa_history .main_page .data_table table tbody tr td button {
+    border: 0;
+    width: 7px;
+    border-radius: 25px;
+    height: 7px;
+    margin-right: 5px;
+}
+
+.managa_history .main_page .data_table table tbody tr td button.remove_status {
+    background-color: red;
+}
+
+.managa_history .main_page .data_table table tbody tr td button.final_status {
+    background-color: #7E7D88;
+}
+
+.managa_history .main_page .data_table table tbody tr td button.pending_status {
+    background-color: #4277FF;
+}
+
+
+/* nav page data */
+
+.managa_history .main_page .nav_number_data {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.managa_history .main_page .nav_number_data button {
+    background-color: transparent;
+    border: none;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.managa_history .main_page .nav_number_data button.page_active {
+    background-color: #FF7506;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Device page */
+
+.managa_history .main_page .data_table table tbody tr .service_use p {
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    width: 120px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.managa_history .main_page .data_table table tbody tr .status {
+    display: flex;
+    align-items: center;
+}
