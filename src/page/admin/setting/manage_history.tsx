@@ -4,7 +4,9 @@ type Props = {}
 
 const Manage_history = (props: Props) => {
     return (
-        <div>Manage_history</div>
+        <div className='managa_history '>
+
+        </div>
     )
 }
 

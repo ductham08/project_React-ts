@@ -76,37 +76,37 @@ const Manage_role = (props: Props) => {
                                     <td>Kế toán</td>
                                     <td>6</td>
                                     <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="#">Cập nhật</Link></td>
+                                    <td><Link to="./001">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>Bác sĩ</td>
                                     <td>6</td>
                                     <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="#">Cập nhật</Link></td>
+                                    <td><Link to="./001">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>Lễ tân</td>
                                     <td>6</td>
                                     <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="#">Cập nhật</Link></td>
+                                    <td><Link to="./001">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>Quản lý</td>
                                     <td>6</td>
                                     <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="#">Cập nhật</Link></td>
+                                    <td><Link to="./001">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>Admin</td>
                                     <td>6</td>
                                     <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="#">Cập nhật</Link></td>
+                                    <td><Link to="./001">Cập nhật</Link></td>
                                 </tr>
                                 <tr>
                                     <td>Superadmin</td>
                                     <td>6</td>
                                     <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="#">Cập nhật</Link></td>
+                                    <td><Link to="./001">Cập nhật</Link></td>
                                 </tr>
                             </tbody>
                         </table>

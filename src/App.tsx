@@ -25,6 +25,7 @@ import Manage_role from "./page/admin/setting/manage_role";
 import Manage_acount from "./page/admin/setting/manage_account";
 import Manage_history from "./page/admin/setting/manage_history";
 import New_role_page from "./page/admin/setting/new_role";
+import Update_role from "./page/admin/setting/update_role";
 
 function App() {
     return (
@@ -54,6 +55,7 @@ function App() {
                     <Route path="setting" element={<Setting_layout />}>
                         <Route path="role" element={<Manage_role />}></Route>
                         <Route path="role/new" element={<New_role_page />}></Route>
+                        <Route path="role/:id" element={<Update_role />}></Route>
                         <Route path="account" element={<Manage_acount />}></Route>
                         <Route path="history" element={<Manage_history />}></Route>
                     </Route>
