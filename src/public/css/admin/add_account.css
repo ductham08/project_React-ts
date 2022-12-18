@@ -88,3 +88,87 @@
 
 
 /* End title */
+
+
+/* main */
+
+.add_account_page .main_page {
+    background-color: white;
+    margin-right: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.add_account_page .main_page h5 {
+    color: #FF7506;
+    font-weight: 700;
+}
+
+.add_account_page .main_page .content_main form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.add_account_page .main_page .item_form {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.add_account_page .main_page svg {
+    width: 7px;
+    height: 7px;
+    margin: 0px 5px;
+}
+
+.add_account_page .main_page .item_form p {
+    padding: 0px 0px 10px 0px;
+    margin: 0;
+}
+
+.add_account_page .main_page .item_form input {
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid #D4D4D7;
+    outline: none;
+}
+
+.add_account_page .main_page .item_form select {
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid #D4D4D7;
+    outline: none;
+}
+
+
+/* Button */
+
+.add_account_page .main_page .list_button {
+    margin: 35px auto;
+    display: block;
+    text-align: center;
+}
+
+.add_account_page .main_page .list_button button {
+    padding: 7px 12px;
+    width: 130px;
+    border: none;
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
+.add_account_page .main_page .list_button button.exit {
+    border: 1px solid #FF7506;
+    color: #FF7506;
+    background-color: #FFF2E7;
+}
+
+.add_account_page .main_page .list_button button.next {
+    color: white;
+    background-color: #FF7506;
+}
