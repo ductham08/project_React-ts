@@ -33,11 +33,13 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="" element={<User_layout />}>
+
+                <Route path="" element={<Admin_layout />}></Route>
+                {/* <Route path="" element={<User_layout />}>
                     <Route index element={<Login />}></Route>
                     <Route path="repass" element={<Re_password />}></Route>
                     <Route path="forgotpass" element={<Forgot_password />}></Route>
-                </Route>
+                </Route> */}
                 {/* Admin */}
                 <Route path="admin" element={<Admin_layout />}>
                     <Route path="dashboard" element={<Dashboard_layout />}></Route>
