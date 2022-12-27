@@ -260,6 +260,10 @@
     background-color: #4277FF;
 }
 
+.device_page .main_page .data_table table tbody tr td button.active_status {
+    background-color: #01b617;
+}
+
 
 /* nav page data */
 

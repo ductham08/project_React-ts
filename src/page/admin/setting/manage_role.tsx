@@ -9,9 +9,6 @@ const Manage_role = (props: Props) => {
 
     const { data: Roles, isLoading, error } = useGetRole_settingQuery()
 
-
-
-
     if (isLoading) return <div>Loading...</div>;
     if (error) return <div>Error</div>;
     return (
