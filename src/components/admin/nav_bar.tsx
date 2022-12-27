@@ -33,30 +33,30 @@ const Nav_bar = (props: Props) => {
                 <path
                   d="M18.3333 9.08268V3.41602C18.3333 2.16602 17.8 1.66602 16.475 1.66602H13.1083C11.7833 1.66602 11.25 2.16602 11.25 3.41602V9.08268C11.25 10.3327 11.7833 10.8327 13.1083 10.8327H16.475C17.8 10.8327 18.3333 10.3327 18.3333 9.08268Z"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M18.3333 16.584V15.084C18.3333 13.834 17.8 13.334 16.475 13.334H13.1083C11.7833 13.334 11.25 13.834 11.25 15.084V16.584C11.25 17.834 11.7833 18.334 13.1083 18.334H16.475C17.8 18.334 18.3333 17.834 18.3333 16.584Z"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M8.74984 10.916V16.5827C8.74984 17.8327 8.2165 18.3327 6.8915 18.3327H3.52484C2.19984 18.3327 1.6665 17.8327 1.6665 16.5827V10.916C1.6665 9.66602 2.19984 9.16602 3.52484 9.16602H6.8915C8.2165 9.16602 8.74984 9.66602 8.74984 10.916Z"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M8.74984 3.41602V4.91602C8.74984 6.16602 8.2165 6.66602 6.8915 6.66602H3.52484C2.19984 6.66602 1.6665 6.16602 1.6665 4.91602V3.41602C1.6665 2.16602 2.19984 1.66602 3.52484 1.66602H6.8915C8.2165 1.66602 8.74984 2.16602 8.74984 3.41602Z"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               Dashboard
@@ -74,30 +74,30 @@ const Nav_bar = (props: Props) => {
                 <path
                   d="M5.3665 1.66602H14.6248C17.5915 1.66602 18.3332 2.40768 18.3332 5.36602V10.641C18.3332 13.6077 17.5915 14.341 14.6332 14.341H5.3665C2.40817 14.3493 1.6665 13.6077 1.6665 10.6493V5.36602C1.6665 2.40768 2.40817 1.66602 5.3665 1.66602Z"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M10 14.3496V18.3329"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M1.6665 10.834H18.3332"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M6.25 18.334H13.75"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               Thiết bị
@@ -115,7 +115,7 @@ const Nav_bar = (props: Props) => {
                 <circle cx="4.57986" cy="14.4016" r="0.708276" fill="#A9A9B0" />
                 <circle cx="6.9407" cy="14.4016" r="0.708276" fill="#A9A9B0" />
                 <circle cx="9.30154" cy="14.4016" r="0.708276" fill="#A9A9B0" />
-                <g clip-path="url(#clip0_60833_3744)">
+                <g clipPath="url(#clip0_60833_3744)">
                   <path
                     d="M13.0697 5.18945C13.5212 5.18945 13.9317 5.31748 14.2862 5.59915C14.9579 6.14053 15.0549 7.05868 14.4915 7.7098C14.3161 7.91465 14.1071 8.09755 13.9093 8.28044C13.663 8.50724 13.4839 8.75232 13.4988 9.1108C13.51 9.37052 13.2899 9.54245 13.0324 9.53513C12.7898 9.52416 12.6219 9.3376 12.6107 9.07788C12.5883 8.60235 12.7562 8.19997 13.0846 7.85978C13.3085 7.62567 13.5548 7.41716 13.775 7.17939C14.0772 6.85749 14.0101 6.43682 13.622 6.21369C13.5026 6.14419 13.357 6.09663 13.2152 6.07834C12.7674 6.02347 12.3644 6.15882 12.1927 6.7258C12.1218 6.96723 11.8718 7.0916 11.6404 7.0221C11.3979 6.9526 11.271 6.72215 11.3382 6.46975C11.5397 5.68694 12.2077 5.19311 13.0697 5.18945Z"
                     fill="#A9A9B0"
@@ -128,14 +128,14 @@ const Nav_bar = (props: Props) => {
                 <path
                   d="M20.9999 8.18601C20.9999 10.0609 19.9886 11.7464 18.3784 12.9193C18.3226 12.9583 18.292 13.0251 18.2892 13.092L18.2196 14.9168C18.2112 15.1619 17.941 15.304 17.7348 15.1731L16.1886 14.2008C16.1886 14.2008 16.1886 14.2008 16.1858 14.2008C16.0967 14.1423 15.9881 14.1256 15.8878 14.1562C14.9684 14.4431 13.9683 14.6019 12.9208 14.6019C12.9068 14.6019 12.8929 14.6019 12.879 14.6019C12.9068 14.4181 12.9208 14.2314 12.9208 14.042C12.9208 11.426 10.2519 9.30594 6.95894 9.30594C6.28196 9.30594 5.63285 9.39509 5.02552 9.55946C4.90294 9.1165 4.83887 8.65404 4.83887 8.18044C4.83887 4.63398 8.45497 1.76172 12.918 1.76172C17.3838 1.76729 20.9999 4.64234 20.9999 8.18601Z"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
+                  strokeWidth="1.5"
+                  strokeMiterlimit="10"
                 />
                 <path
                   d="M5.02842 9.56445C2.68547 10.2024 1 11.9687 1 14.047C1 15.4288 1.74662 16.6741 2.93342 17.5405C2.97521 17.5711 2.99749 17.6185 3.00028 17.6686L3.05042 19.0142C3.056 19.1953 3.25658 19.2984 3.40981 19.2037L4.55203 18.4849C4.56038 18.4793 4.57153 18.471 4.57989 18.4654C4.62167 18.432 4.67739 18.4208 4.72754 18.4376C5.41844 18.6604 6.17064 18.783 6.96183 18.783C10.0152 18.783 12.5336 16.9582 12.8819 14.6069"
                   stroke="#A9A9B0"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
+                  strokeWidth="1.5"
+                  strokeMiterlimit="10"
                 />
                 <defs>
                   <clipPath id="clip0_60833_3744">
@@ -160,28 +160,28 @@ const Nav_bar = (props: Props) => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#clip0_60833_3758)">
-                  <g clip-path="url(#clip1_60833_3758)">
+                <g clipPath="url(#clip0_60833_3758)">
+                  <g clipPath="url(#clip1_60833_3758)">
                     <path
                       d="M1.6665 14.166L9.99984 18.3327L18.3332 14.166"
                       stroke="#A9A9B0"
-                      stroke-width="1.66667"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.66667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M1.6665 10L9.99984 14.1667L18.3332 10"
                       stroke="#A9A9B0"
-                      stroke-width="1.66667"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.66667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M9.99984 1.66602L1.6665 5.83268L9.99984 9.99935L18.3332 5.83268L9.99984 1.66602Z"
                       stroke="#A9A9B0"
-                      stroke-width="1.66667"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.66667"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                 </g>
@@ -252,22 +252,22 @@ const Nav_bar = (props: Props) => {
                   d="M9.99984 16.6667C10.4601 16.6667 10.8332 16.2936 10.8332 15.8333C10.8332 15.3731 10.4601 15 9.99984 15C9.5396 15 9.1665 15.3731 9.1665 15.8333C9.1665 16.2936 9.5396 16.6667 9.99984 16.6667Z"
                   fill="#A9A9B0"
                   stroke="#A9A9B0"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M9.99984 10.8327C10.4601 10.8327 10.8332 10.4596 10.8332 9.99935C10.8332 9.53911 10.4601 9.16602 9.99984 9.16602C9.5396 9.16602 9.1665 9.53911 9.1665 9.99935C9.1665 10.4596 9.5396 10.8327 9.99984 10.8327Z"
                   fill="#A9A9B0"
                   stroke="#A9A9B0"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M9.99984 5.00065C10.4601 5.00065 10.8332 4.62755 10.8332 4.16732C10.8332 3.70708 10.4601 3.33398 9.99984 3.33398C9.5396 3.33398 9.1665 3.70708 9.1665 4.16732C9.1665 4.62755 9.5396 5.00065 9.99984 5.00065Z"
                   fill="#A9A9B0"
                   stroke="#A9A9B0"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
@@ -304,23 +304,23 @@ const Nav_bar = (props: Props) => {
             <path
               d="M13.3335 14.1673L17.5002 10.0007L13.3335 5.83398"
               stroke="#FF7506"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M17.5 10H7.5"
               stroke="#FF7506"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M7.5 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V4.16667C2.5 3.72464 2.67559 3.30072 2.98816 2.98816C3.30072 2.67559 3.72464 2.5 4.16667 2.5H7.5"
               stroke="#FF7506"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
           <p>Đăng xuất</p>

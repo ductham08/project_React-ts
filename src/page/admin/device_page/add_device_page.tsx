@@ -76,7 +76,7 @@ const Add_device_page = (props: Props) => {
                                 <p>
                                     <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M13 7L7 0.999999L1 7" fill="#FF7506" />
-                                        <path d="M13 7L7 0.999999L1 7L13 7Z" stroke="#FF7506" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M13 7L7 0.999999L1 7L13 7Z" stroke="#FF7506" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </p>
                             </div>

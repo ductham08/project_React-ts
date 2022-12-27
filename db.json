@@ -74,5 +74,28 @@
             "functional_A": [1, 2, 3],
             "functional_B": [1, 2, 3]
         }
-    ]
+    ],
+    "Devices": [{
+        "id": 1,
+        "device_code": "KIO_01",
+        "device_name": "Kios",
+        "device_type": 1,
+        "active_status": 1,
+        "connect_status": 1,
+        "user_name": "Ductham087",
+        "user_pass": "Ductham087",
+        "device_service": [
+            "Khám tim mạch",
+            "Khám phụ khoa",
+            "Khám răng hàm mặt"
+        ]
+    }],
+    "Services": [{
+        "id": 1,
+        "name_servcie": "Kios",
+        "service_code": "KIO_01",
+        "desc_service": "Mô tả dịch vụ một",
+        "active_status": 1,
+        "rule_number": [1, 2, 3]
+    }]
 }
