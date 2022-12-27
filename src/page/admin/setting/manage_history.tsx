@@ -1,10 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useGetHistory_settingQuery } from '../../../api/setting_history.APIs'
 import "../../../public/css/admin/manage_history.css"
 
 type Props = {}
 
 const Manage_history = (props: Props) => {
+
+    const { data: Setting, isLoading, error } = useGetHistory_settingQuery()
+
+
+    if (isLoading) return <div>Loading...</div>;
+    if (error) return <div>Error</div>;
     return (
         <div className='managa_history '>
             {/* Title */}
@@ -88,66 +95,16 @@ const Manage_history = (props: Props) => {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
-                            <tr>
-                                <td>tuyetnguyen@12</td>
-                                <td>01/12/2021 15:12:17</td>
-                                <td>192.168.3.1</td>
-                                <td>Cập nhật thông tin dịch vụ DV_01</td>
-                            </tr>
+                            {Setting?.map((item) => {
+                                return (
+                                    <tr>
+                                        <td>{item.user_name}</td>
+                                        <td>{item.real_time}</td>
+                                        <td>{item.ip_user}</td>
+                                        <td>{item.impact}</td>
+                                    </tr>
+                                )
+                            })}
                         </tbody>
                     </table>
                 </div>

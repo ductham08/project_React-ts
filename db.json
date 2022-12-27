@@ -1,16 +1,78 @@
 {
-    "products": [
-        {
+    "Users": [{
             "id": 1,
-            "name": "Product 1",
-            "price": 100,
-            "quantity": 1
+            "user_name": "Ductham087",
+            "full_name": "Nguyễn Đức Thắm",
+            "password": "123456",
+            "phone_number": "0967550071",
+            "email": "ductham784@gmail.com",
+            "role": 1,
+            "status": 0
         },
         {
             "id": 2,
-            "name": "Product 2",
-            "price": 200,
-            "quantity": 2
+            "user_name": "Ductham",
+            "full_name": "Nguyễn Đức Thắm",
+            "password": "123456",
+            "phone_number": "0967550071",
+            "email": "ductham784@gmail.com",
+            "role": 1,
+            "status": 0
+        }
+    ],
+    "History_setting": [{
+            "id": 1,
+            "user_name": "Ductham087",
+            "real_time": "01/12/2021 15:12:00",
+            "ip_user": "192.168.3.1",
+            "impact": "Cập nhật thông tin dịch vụ DV_01"
+        },
+        {
+            "id": 2,
+            "user_name": "Ductham",
+            "real_time": "01/12/2021 15:12:00",
+            "ip_user": "192.168.3.1",
+            "impact": "Cập nhật thông tin dịch vụ DV_02"
+        }
+    ],
+    "Role_setting": [{
+            "id": 1,
+            "role_name": "Kế toán",
+            "role_desc": "Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu",
+            "functional_A": [1, 2, 3],
+            "functional_B": [1, 2, 3]
+        },
+        {
+            "id": 2,
+            "role_name": "Bác sĩ",
+            "role_desc": "Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu",
+            "functional_A": [1, 2, 3],
+            "functional_B": [1, 2, 3]
+        },
+        {
+            "id": 3,
+            "role_name": "Lễ tân",
+            "role_desc": "Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu",
+            "functional_A": [1, 2, 3],
+            "functional_B": [1, 2, 3]
+        }, {
+            "id": 4,
+            "role_name": "Quản lý",
+            "role_desc": "Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu",
+            "functional_A": [1, 2, 3],
+            "functional_B": [1, 2, 3]
+        }, {
+            "id": 5,
+            "role_name": "Admin",
+            "role_desc": "Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu",
+            "functional_A": [1, 2, 3],
+            "functional_B": [1, 2, 3]
+        }, {
+            "id": 6,
+            "role_name": "Superadmin",
+            "role_desc": "Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu",
+            "functional_A": [1, 2, 3],
+            "functional_B": [1, 2, 3]
         }
     ]
 }

@@ -1,10 +1,44 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useGetUsersQuery } from '../../../api/user.APIs'
 import "../../../public/css/admin/manage_acount.css"
 
 type Props = {}
 
 const Manage_acount = (props: Props) => {
+
+    const { data: Users, isLoading, error } = useGetUsersQuery()
+
+    const check_Role = (role: number) => {
+        if (role == 0) {
+            return "Kế toán"
+        } else if (role == 1) {
+            return "Quản lý"
+        } else if (role == 2) {
+            return "Admin"
+        }
+    }
+
+    const check_Status = (status: number) => {
+        if (status == 0) {
+            return "Ngưng hoạt động"
+        } else if (status == 1) {
+            return "Hoạt động"
+        }
+    }
+
+    const check_Button = (status: number) => {
+        if (status == 0) {
+            return "remove_status"
+        } else if (status == 1) {
+            return "pending_status"
+        }
+    }
+
+
+
+    if (isLoading) return <div>Loading...</div>;
+    if (error) return <div>Error</div>;
     return (
         <div className='manage_acount'>
             {/* Title */}
@@ -92,30 +126,25 @@ const Manage_acount = (props: Props) => {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>tuyetnguyen@12</td>
-                                    <td>Nguyen Văn A</td>
-                                    <td>0919256712</td>
-                                    <td>tuyetnguyen123@gmail.com</td>
-                                    <td>Kế toán</td>
-                                    <td>
-                                        <button className='pending_status'></button>
-                                        Hoạt động
-                                    </td>
-                                    <td><Link to="tuyetnguyen@12">Cập nhật</Link></td>
-                                </tr>
-                                <tr>
-                                    <td>tuyetnguyen@12</td>
-                                    <td>Nguyen Văn A</td>
-                                    <td>0919256712</td>
-                                    <td>tuyetnguyen123@gmail.com</td>
-                                    <td>Kế toán</td>
-                                    <td>
-                                        <button className='remove_status'></button>
-                                        Ngưng hoạt động
-                                    </td>
-                                    <td><Link to="tuyetnguyen@12">Cập nhật</Link></td>
-                                </tr>
+                                {Users?.map((item) => {
+                                    return (
+                                        <tr>
+                                            <td>{item.user_name}</td>
+                                            <td>{item.full_name}</td>
+                                            <td>{item.phone_number}</td>
+                                            <td>{item.email}</td>
+                                            <td>
+                                                {check_Role(item.role)}
+                                            </td>
+                                            <td>
+                                                <button className={check_Button(item.status)}></button>
+                                                {check_Status(item.status)}
+                                            </td>
+                                            <td><Link to={item.user_name}>Cập nhật</Link></td>
+                                        </tr>
+                                    )
+                                })}
+
                             </tbody>
                         </table>
                     </div>

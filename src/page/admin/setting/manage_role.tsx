@@ -1,10 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useGetRole_settingQuery } from '../../../api/setting_role.APIs'
 import "../../../public/css/admin/manage_role.css"
 
 type Props = {}
 
 const Manage_role = (props: Props) => {
+
+    const { data: Roles, isLoading, error } = useGetRole_settingQuery()
+
+
+
+
+    if (isLoading) return <div>Loading...</div>;
+    if (error) return <div>Error</div>;
     return (
         <div className='manage_role'>
             {/* Title */}
@@ -72,42 +81,16 @@ const Manage_role = (props: Props) => {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>Kế toán</td>
-                                    <td>6</td>
-                                    <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="./001">Cập nhật</Link></td>
-                                </tr>
-                                <tr>
-                                    <td>Bác sĩ</td>
-                                    <td>6</td>
-                                    <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="./001">Cập nhật</Link></td>
-                                </tr>
-                                <tr>
-                                    <td>Lễ tân</td>
-                                    <td>6</td>
-                                    <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="./001">Cập nhật</Link></td>
-                                </tr>
-                                <tr>
-                                    <td>Quản lý</td>
-                                    <td>6</td>
-                                    <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="./001">Cập nhật</Link></td>
-                                </tr>
-                                <tr>
-                                    <td>Admin</td>
-                                    <td>6</td>
-                                    <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="./001">Cập nhật</Link></td>
-                                </tr>
-                                <tr>
-                                    <td>Superadmin</td>
-                                    <td>6</td>
-                                    <td>Thực hiện nhiệm vụ về thống kê số liệu và tổng hợp số liệu</td>
-                                    <td><Link to="./001">Cập nhật</Link></td>
-                                </tr>
+                                {Roles?.map((item) => {
+                                    return (
+                                        <tr>
+                                            <td>{item.role_name}</td>
+                                            <td>6</td>
+                                            <td>{item.role_desc}</td>
+                                            <td><Link to="">Cập nhật</Link></td>
+                                        </tr>
+                                    )
+                                })}
                             </tbody>
                         </table>
                     </div>
@@ -146,7 +129,7 @@ const Manage_role = (props: Props) => {
                     </button>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
