@@ -89,36 +89,36 @@
     text-align: left;
 }
 
-li:has( a.active_navlink) {
+li:has(a.active_navlink) {
     background-color: #ff7506;
     color: white;
 }
 
-li:has( a.active_navlink) a {
+li:has(a.active_navlink) a {
     color: white !important;
 }
 
-li:has( a.active_navlink) svg path {
+li:has(a.active_navlink) svg path {
     stroke: white !important;
 }
 
-li:has( a.active_navlink) svg circle {
+li:has(a.active_navlink) svg circle {
     stroke: white !important;
 }
 
-li:has( a.active_navlink):hover {
+li:has(a.active_navlink):hover {
     background-color: #ff7506 !important;
 }
 
-li:has( a.active_navlink):hover a {
+li:has(a.active_navlink):hover a {
     color: white !important;
 }
 
-li:has( a.active_navlink):hover svg path {
+li:has(a.active_navlink):hover svg path {
     stroke: white !important;
 }
 
-li:has( a.active_navlink):hover svg circle {
+li:has(a.active_navlink):hover svg circle {
     stroke: white !important;
 }
 
