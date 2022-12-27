@@ -1,5 +1,4 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { I_History } from "../interfaces/history.interface";
 import { I_Role } from "../interfaces/role.interface";
 
 export const Role_settingAPIs = createApi({
